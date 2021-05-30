@@ -29,4 +29,11 @@ function oceanwp_child_enqueue_parent_style() {
 }
 add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
 
-/* Midori theme functions will go after this comment */
+/**
+ * Change the Related Posts title "You Might Also Like" to "Related Posts"
+ */
+function myprefix_related_posts_title() {
+	return 'Related Posts';
+}
+add_filter( 'owp-string-single-related-posts', 'myprefix_related_posts_title' );
+
