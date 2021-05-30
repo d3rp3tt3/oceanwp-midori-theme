@@ -36,3 +36,4 @@ function myprefix_related_posts_title() {
 	return 'Related Posts';
 }
 add_filter( 'owp-string-single-related-posts', 'myprefix_related_posts_title' );
+
