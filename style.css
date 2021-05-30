@@ -9,3 +9,104 @@ Version: 1.0
 */
 
 /* Parent stylesheet should be loaded from functions.php not using @import */
+
+/* WORKS */  
+
+/* Titles margin bottom on the banner of the home page */
+.elementor-element.banner-margin { margin-bottom: 10px; }
+
+
+/*DONT DISPLAY IMAGE NAME
+css :display:none !important*/
+
+/* Jenn styles */
+.page-header-title .single-post H1 {
+	text-align: left !important;
+}
+
+/* Commenting out hard-coded blog styles from prod design */
+
+/*remove category from blog entries page
+.blog-entry.thumbnail-entry .blog-entry-category {
+display:none!important
+} */
+
+/*remove tags from blog entries page
+.blog-entry.thumbnail-entry 
+.blog-entry-tags {
+display:none!important
+}
+.blog-entry-category {
+	display:none!important;
+}
+.blog-entry-summary {
+	display:none;
+}
+*/
+
+
+/* Titles margin bottom on the banner of the home page */
+.elementor-element.banner-margin { margin-bottom: 10px; }
+
+
+/* Jenn styles */
+.page-header-title .single-post H1 {
+	text-align: left !important;
+}
+
+.social-share-title > .text {
+	clear: both;
+}
+
+.entry-share.side .theme-heading {
+	float: none;
+}
+
+.single .entry-share {
+	border: none;
+}
+
+#related-posts {
+  border-top: none;
+}
+
+.related-thumb img {
+	display: inline;
+	overflow: hidden;
+}
+
+.related-post-media {
+  float: left;
+	margin-right: 15px;
+	width: 40%;
+	overflow: hidden;
+	max-height: 150px
+}
+
+.related-post-title {
+	margin: 0 0 10px 0;
+	font-size: .9em;
+}
+
+#related-posts .col {
+	text-align: left;
+	margin: 0 0 50px 0;
+}
+
+.related-posts-title {
+	text-align: center;
+	padding-bottom: 20px;
+	font-weight: 600;
+}
+
+.related-posts-title .text::before {
+	display: none;
+}
+
+.icon-clock {
+	display: none;
+	margin: 0;
+}
+
+/* This changes the text of "You might also like" for the related posts section */ 
+ 
