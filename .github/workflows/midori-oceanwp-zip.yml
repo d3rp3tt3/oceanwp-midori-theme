@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - name: Archive Release
+    - name: Midori Theme Release
       uses: thedoctor0/zip-release@master
       with:
         filename: 'midori-oceanwp.zip'
