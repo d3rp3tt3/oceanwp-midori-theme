@@ -1,3 +1,17 @@
+/*
+Theme Name: Midori - An OceanWP Child Theme
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress theme example child theme.
+Author: Nick
+Author URI: https://oceanwp.org/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+
+/* WORKS */  
+
 /* Titles margin bottom on the banner of the home page */
 .elementor-element.banner-margin { margin-bottom: 10px; }
 
