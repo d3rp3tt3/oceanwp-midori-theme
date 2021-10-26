@@ -12,6 +12,12 @@ Version: 1.0
 
 /* WORKS */  
 
+/* GLOBAL TYPOGRAPHY */
+
+p {
+	font-size: 1.4em;
+}
+
 /* Titles margin bottom on the banner of the home page */
 .elementor-element.banner-margin { margin-bottom: 10px; }
 
