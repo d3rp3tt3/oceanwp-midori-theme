@@ -20,7 +20,7 @@
 	<a
 		href="<?php echo esc_url( $event->permalink ); ?>"
 		// title="<?php echo esc_attr( $event->title ); ?>"
-		title="Events"
+		title="Bro These Are Events"
 		rel="bookmark"
 		class="tribe-events-calendar-day__event-title-link tribe-common-anchor-thin"
 	>
