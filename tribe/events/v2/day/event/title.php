@@ -19,7 +19,7 @@
 <h3 class="tribe-events-calendar-day__event-title tribe-common-h6 tribe-common-h4--min-medium">
 	<a
 		href="<?php echo esc_url( $event->permalink ); ?>"
-		title="Bro These Are Events"
+		title="<?php echo esc_attr( $event->title ); ?>"
 		rel="bookmark"
 		class="tribe-events-calendar-day__event-title-link tribe-common-anchor-thin"
 	>
